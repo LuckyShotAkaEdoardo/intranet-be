@@ -1,0 +1,1185 @@
+[
+  {
+    "id": 1,
+    "cost": 7,
+    "name": "Guerriero Antico",
+    "type": "HERO",
+    "image": "guerriero_antico.jpg",
+    "attack": 3,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 2,
+    "cost": 7,
+    "name": "Mago delle Fiamme",
+    "type": "HERO",
+    "image": "mago_delle_fiamme.jpg",
+    "attack": 2,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 3,
+    "cost": 7,
+    "name": "Elfo Arcere",
+    "type": "HERO",
+    "image": "elfo_arcere.jpg",
+    "attack": 8,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 4,
+    "cost": 5,
+    "name": "Drago di Ghiaccio",
+    "type": "HERO",
+    "image": "drago_di_ghiaccio.jpg",
+    "attack": 7,
+    "defense": 5,
+    "description": "Congela il nemico per un turno.",
+    "effect": {
+      "type": "STUN",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 2
+    }
+  },
+  {
+    "id": 5,
+    "cost": 3,
+    "name": "Cavaliere della Luce",
+    "type": "HERO",
+    "image": "cavaliere_della_luce.jpg",
+    "attack": 2,
+    "defense": 6,
+    "description": "Irradia luce curativa sugli alleati.",
+    "effect": {
+      "type": "HEAL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    }
+  },
+  {
+    "id": 6,
+    "cost": 7,
+    "name": "Troll della Caverna",
+    "type": "HERO",
+    "image": "troll_della_caverna.jpg",
+    "attack": 4,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 7,
+    "cost": 6,
+    "name": "Spirito della Foresta",
+    "type": "HERO",
+    "image": "spirito_della_foresta.jpg",
+    "attack": 8,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 8,
+    "cost": 4,
+    "name": "Paladino Ombroso",
+    "type": "HERO",
+    "image": "paladino_ombroso.jpg",
+    "attack": 4,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 9,
+    "cost": 5,
+    "name": "Lupo Fantasma",
+    "type": "HERO",
+    "image": "lupo_fantasma.jpg",
+    "attack": 1,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 10,
+    "cost": 3,
+    "name": "Strega del Nord",
+    "type": "HERO",
+    "image": "strega_del_nord.jpg",
+    "attack": 5,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 11,
+    "cost": 7,
+    "name": "Sirena degli Abissi",
+    "type": "HERO",
+    "image": "sirena_degli_abissi.jpg",
+    "attack": 7,
+    "defense": 7,
+    "description": "Confonde il nemico con il canto.",
+    "effect": {
+      "type": "CHARM",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 3
+    }
+  },
+  {
+    "id": 12,
+    "cost": 7,
+    "name": "Orco Bruto",
+    "type": "HERO",
+    "image": "orco_bruto.jpg",
+    "attack": 5,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 13,
+    "cost": 4,
+    "name": "Nano Ingegnere",
+    "type": "HERO",
+    "image": "nano_ingegnere.jpg",
+    "attack": 1,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 14,
+    "cost": 3,
+    "name": "Golem di Pietra",
+    "type": "HERO",
+    "image": "golem_di_pietra.jpg",
+    "attack": 6,
+    "defense": 2,
+    "description": "Fornisce una barriera impenetrabile.",
+    "effect": {
+      "type": "WALL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    },
+    "abilities": [
+      "WALL"
+    ]
+  },
+  {
+    "id": 15,
+    "cost": 4,
+    "name": "Centauro Feroce",
+    "type": "HERO",
+    "image": "centauro_feroce.jpg",
+    "attack": 5,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 16,
+    "cost": 6,
+    "name": "Arciere Celeste",
+    "type": "HERO",
+    "image": "arciere_celeste.jpg",
+    "attack": 1,
+    "defense": 7,
+    "description": ""
+  },
+  {
+    "id": 17,
+    "cost": 6,
+    "name": "Maga della Notte",
+    "type": "HERO",
+    "image": "maga_della_notte.jpg",
+    "attack": 8,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 18,
+    "cost": 2,
+    "name": "Templare Sacro",
+    "type": "HERO",
+    "image": "templare_sacro.jpg",
+    "attack": 4,
+    "defense": 2,
+    "description": "Inizia con uno scudo divino.",
+    "effect": {
+      "type": "DIVINE_SHIELD",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    },
+    "abilities": [
+      "DIVINE_SHIELD"
+    ]
+  },
+  {
+    "id": 19,
+    "cost": 5,
+    "name": "Bestia della Valle",
+    "type": "HERO",
+    "image": "bestia_della_valle.jpg",
+    "attack": 3,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 20,
+    "cost": 6,
+    "name": "Vampiro Nobile",
+    "type": "HERO",
+    "image": "vampiro_nobile.jpg",
+    "attack": 1,
+    "defense": 7,
+    "description": "Assorbe vita infliggendo danni.",
+    "effect": {
+      "type": "LIFESTEAL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 2
+    },
+    "abilities": [
+      "LIFESTEAL"
+    ]
+  },
+  {
+    "id": 21,
+    "cost": 4,
+    "name": "Fata Lucente",
+    "type": "HERO",
+    "image": "fata_lucente.jpg",
+    "attack": 8,
+    "defense": 0,
+    "description": "Irradia luce curativa sugli alleati.",
+    "effect": {
+      "type": "HEAL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    }
+  },
+  {
+    "id": 22,
+    "cost": 7,
+    "name": "Demone del Caos",
+    "type": "HERO",
+    "image": "demone_del_caos.jpg",
+    "attack": 2,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 23,
+    "cost": 2,
+    "name": "Custode della Cripta",
+    "type": "HERO",
+    "image": "custode_della_cripta.jpg",
+    "attack": 5,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 24,
+    "cost": 6,
+    "name": "Ranger delle Dune",
+    "type": "HERO",
+    "image": "ranger_delle_dune.jpg",
+    "attack": 3,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 25,
+    "cost": 3,
+    "name": "Cacciatore di Ombre",
+    "type": "HERO",
+    "image": "cacciatore_di_ombre.jpg",
+    "attack": 1,
+    "defense": 4,
+    "description": ""
+  },
+  {
+    "id": 26,
+    "cost": 4,
+    "name": "Samurai Errante",
+    "type": "HERO",
+    "image": "samurai_errante.jpg",
+    "attack": 5,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 27,
+    "cost": 7,
+    "name": "Giullare Maledetto",
+    "type": "HERO",
+    "image": "giullare_maledetto.jpg",
+    "attack": 8,
+    "defense": 2,
+    "description": "Infligge una maledizione debilitante.",
+    "effect": {
+      "type": "DEBUFF",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 3
+    }
+  },
+  {
+    "id": 28,
+    "cost": 4,
+    "name": "Guerriero Meccanico",
+    "type": "HERO",
+    "image": "guerriero_meccanico.jpg",
+    "attack": 6,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 29,
+    "cost": 4,
+    "name": "Ladra d'Ombra",
+    "type": "HERO",
+    "image": "ladra_d'ombra.jpg",
+    "attack": 5,
+    "defense": 4,
+    "description": "Si muove nell'ombra, evitando attacchi.",
+    "effect": {
+      "type": "STEALTH",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    },
+    "abilities": [
+      "STEALTH"
+    ]
+  },
+  {
+    "id": 30,
+    "cost": 3,
+    "name": "Alchimista Errante",
+    "type": "HERO",
+    "image": "alchimista_errante.jpg",
+    "attack": 2,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 31,
+    "cost": 6,
+    "name": "Evocatore Antico",
+    "type": "HERO",
+    "image": "evocatore_antico.jpg",
+    "attack": 4,
+    "defense": 8,
+    "description": "Evoca creature alleate.",
+    "effect": {
+      "type": "SUMMON",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 2
+    }
+  },
+  {
+    "id": 32,
+    "cost": 2,
+    "name": "Spadaccino Eterno",
+    "type": "HERO",
+    "image": "spadaccino_eterno.jpg",
+    "attack": 1,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 33,
+    "cost": 2,
+    "name": "Negromante del Vuoto",
+    "type": "HERO",
+    "image": "negromante_del_vuoto.jpg",
+    "attack": 1,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 34,
+    "cost": 2,
+    "name": "Saggio del Vento",
+    "type": "HERO",
+    "image": "saggio_del_vento.jpg",
+    "attack": 3,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 35,
+    "cost": 5,
+    "name": "Re Drago",
+    "type": "HERO",
+    "image": "re_drago.jpg",
+    "attack": 5,
+    "defense": 2,
+    "description": "Potente attacco distruttivo.",
+    "effect": {
+      "type": "KILL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 2
+    }
+  },
+  {
+    "id": 36,
+    "cost": 7,
+    "name": "Guardia Imperiale",
+    "type": "HERO",
+    "image": "guardia_imperiale.jpg",
+    "attack": 4,
+    "defense": 4,
+    "description": "Agisce come scudo per gli alleati.",
+    "effect": {
+      "type": "WALL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 3
+    },
+    "abilities": [
+      "WALL"
+    ]
+  },
+  {
+    "id": 37,
+    "cost": 5,
+    "name": "Cavaliere Nero",
+    "type": "HERO",
+    "image": "cavaliere_nero.jpg",
+    "attack": 0,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 38,
+    "cost": 7,
+    "name": "Erborista dei Colli",
+    "type": "HERO",
+    "image": "erborista_dei_colli.jpg",
+    "attack": 8,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 39,
+    "cost": 6,
+    "name": "Artigliere Fatato",
+    "type": "HERO",
+    "image": "artigliere_fatato.jpg",
+    "attack": 5,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 40,
+    "cost": 5,
+    "name": "Mistico delle Stelle",
+    "type": "HERO",
+    "image": "mistico_delle_stelle.jpg",
+    "attack": 6,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 41,
+    "cost": 5,
+    "name": "Veggente del Mare",
+    "type": "HERO",
+    "image": "veggente_del_mare.jpg",
+    "attack": 6,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 42,
+    "cost": 4,
+    "name": "Domatore di Serpenti",
+    "type": "HERO",
+    "image": "domatore_di_serpenti.jpg",
+    "attack": 3,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 43,
+    "cost": 2,
+    "name": "Monaco Errante",
+    "type": "HERO",
+    "image": "monaco_errante.jpg",
+    "attack": 6,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 44,
+    "cost": 7,
+    "name": "Custode del Sigillo",
+    "type": "HERO",
+    "image": "custode_del_sigillo.jpg",
+    "attack": 7,
+    "defense": 7,
+    "description": "Un sigillo protettivo si attiva.",
+    "effect": {
+      "type": "SHIELD",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 3
+    }
+  },
+  {
+    "id": 45,
+    "cost": 4,
+    "name": "Centauro del Bosco",
+    "type": "HERO",
+    "image": "centauro_del_bosco.jpg",
+    "attack": 5,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 46,
+    "cost": 5,
+    "name": "Oracolo del Fuoco",
+    "type": "HERO",
+    "image": "oracolo_del_fuoco.jpg",
+    "attack": 3,
+    "defense": 7,
+    "description": "Infligge danni con fiamme ardenti.",
+    "effect": {
+      "type": "DAMAGE",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 2
+    }
+  },
+  {
+    "id": 47,
+    "cost": 5,
+    "name": "Sentinella del Tramonto",
+    "type": "HERO",
+    "image": "sentinella_del_tramonto.jpg",
+    "attack": 1,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 48,
+    "cost": 7,
+    "name": "Assassino delle Sabbie",
+    "type": "HERO",
+    "image": "assassino_delle_sabbie.jpg",
+    "attack": 1,
+    "defense": 6,
+    "description": ""
+  },
+  {
+    "id": 49,
+    "cost": 4,
+    "name": "Cercatore di Reliquie",
+    "type": "HERO",
+    "image": "cercatore_di_reliquie.jpg",
+    "attack": 5,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 50,
+    "cost": 4,
+    "name": "Capitano della Resistenza",
+    "type": "HERO",
+    "image": "capitano_della_resistenza.jpg",
+    "attack": 3,
+    "defense": 5,
+    "description": ""
+  },
+  {
+    "id": 51,
+    "cost": 5,
+    "name": "Predatore delle Lande",
+    "type": "HERO",
+    "image": "predatore_delle_lande.jpg",
+    "attack": 4,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 52,
+    "cost": 6,
+    "name": "Artigiano Runico",
+    "type": "HERO",
+    "image": "artigiano_runico.jpg",
+    "attack": 4,
+    "defense": 8,
+    "description": ""
+  },
+  {
+    "id": 53,
+    "cost": 3,
+    "name": "Comandante del Nord",
+    "type": "HERO",
+    "image": "comandante_del_nord.jpg",
+    "attack": 7,
+    "defense": 1,
+    "description": ""
+  },
+  {
+    "id": 54,
+    "cost": 5,
+    "name": "Condottiero Leggendario",
+    "type": "HERO",
+    "image": "condottiero_leggendario.jpg",
+    "attack": 5,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 55,
+    "cost": 5,
+    "name": "Combattente Selvaggio",
+    "type": "HERO",
+    "image": "combattente_selvaggio.jpg",
+    "attack": 3,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 56,
+    "cost": 4,
+    "name": "Mercenario del Deserto",
+    "type": "HERO",
+    "image": "mercenario_del_deserto.jpg",
+    "attack": 2,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 57,
+    "cost": 7,
+    "name": "Bestia della Notte",
+    "type": "HERO",
+    "image": "bestia_della_notte.jpg",
+    "attack": 2,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 58,
+    "cost": 4,
+    "name": "Cavaliere del Sole",
+    "type": "HERO",
+    "image": "cavaliere_del_sole.jpg",
+    "attack": 6,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 59,
+    "cost": 3,
+    "name": "Vigilante del Fiume",
+    "type": "HERO",
+    "image": "vigilante_del_fiume.jpg",
+    "attack": 4,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 60,
+    "cost": 4,
+    "name": "Re dei Troll",
+    "type": "HERO",
+    "image": "re_dei_troll.jpg",
+    "attack": 6,
+    "defense": 4,
+    "description": ""
+  },
+  {
+    "id": 61,
+    "cost": 4,
+    "name": "Lama Ruggente",
+    "type": "HERO",
+    "image": "lama_ruggente.jpg",
+    "attack": 5,
+    "defense": 3,
+    "description": ""
+  },
+  {
+    "id": 62,
+    "cost": 7,
+    "name": "Maestro delle Lame",
+    "type": "HERO",
+    "image": "maestro_delle_lame.jpg",
+    "attack": 5,
+    "defense": 7,
+    "description": ""
+  },
+  {
+    "id": 63,
+    "cost": 2,
+    "name": "Golem Incantato",
+    "type": "HERO",
+    "image": "golem_incantato.jpg",
+    "attack": 2,
+    "defense": 4,
+    "description": "Fornisce una barriera impenetrabile.",
+    "effect": {
+      "type": "WALL",
+      "trigger": "ON_ENTER_BOARD",
+      "value": 1
+    },
+    "abilities": [
+      "WALL"
+    ]
+  },
+  {
+    "id": 64,
+    "cost": 3,
+    "name": "Mutaforma Antico",
+    "type": "HERO",
+    "image": "mutaforma_antico.jpg",
+    "attack": 1,
+    "defense": 2,
+    "description": ""
+  },
+  {
+    "id": 65,
+    "cost": 6,
+    "name": "Pirati delle Nebbie",
+    "type": "HERO",
+    "image": "pirati_delle_nebbie.jpg",
+    "attack": 8,
+    "defense": 4,
+    "description": ""
+  },
+  {
+    "id": 66,
+    "cost": 7,
+    "name": "Fiamma Infernale",
+    "type": "MAGIC",
+    "image": "fiamma_infernale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Brucia il nemico con un'ondata di fuoco.",
+    "effect": {
+      "type": "DAMAGE",
+      "trigger": "ON_PLAY",
+      "value": 3
+    }
+  },
+  {
+    "id": 67,
+    "cost": 2,
+    "name": "Tempesta Elettrica",
+    "type": "MAGIC",
+    "image": "tempesta_elettrica.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Colpisce tutti i nemici con furia.",
+    "effect": {
+      "type": "DAMAGE",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 68,
+    "cost": 3,
+    "name": "Cura Divina",
+    "type": "MAGIC",
+    "image": "cura_divina.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Ripristina salute a un alleato.",
+    "effect": {
+      "type": "HEAL",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 69,
+    "cost": 3,
+    "name": "Scudo di Energia",
+    "type": "MAGIC",
+    "image": "scudo_di_energia.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 70,
+    "cost": 3,
+    "name": "Evocazione Spettrale",
+    "type": "MAGIC",
+    "image": "evocazione_spettrale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Evoca una creatura in campo.",
+    "effect": {
+      "type": "SUMMON",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 71,
+    "cost": 6,
+    "name": "Raggio Congelante",
+    "type": "MAGIC",
+    "image": "raggio_congelante.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 72,
+    "cost": 6,
+    "name": "Incubo Vivente",
+    "type": "MAGIC",
+    "image": "incubo_vivente.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 73,
+    "cost": 7,
+    "name": "Sigillo di Protezione",
+    "type": "MAGIC",
+    "image": "sigillo_di_protezione.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Garantisce uno scudo protettivo.",
+    "effect": {
+      "type": "SHIELD",
+      "trigger": "ON_PLAY",
+      "value": 3
+    }
+  },
+  {
+    "id": 74,
+    "cost": 7,
+    "name": "Anello del Potere",
+    "type": "MAGIC",
+    "image": "anello_del_potere.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 75,
+    "cost": 5,
+    "name": "Benedizione della Luna",
+    "type": "MAGIC",
+    "image": "benedizione_della_luna.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Benedice tutti gli alleati.",
+    "effect": {
+      "type": "BUFF",
+      "trigger": "ON_PLAY",
+      "value": 2
+    }
+  },
+  {
+    "id": 76,
+    "cost": 4,
+    "name": "Maleficio del Silenzio",
+    "type": "MAGIC",
+    "image": "maleficio_del_silenzio.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 77,
+    "cost": 7,
+    "name": "Pozione della Vita",
+    "type": "MAGIC",
+    "image": "pozione_della_vita.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Effetto curativo immediato.",
+    "effect": {
+      "type": "HEAL",
+      "trigger": "ON_PLAY",
+      "value": 3
+    }
+  },
+  {
+    "id": 78,
+    "cost": 5,
+    "name": "Teleportazione",
+    "type": "MAGIC",
+    "image": "teleportazione.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 79,
+    "cost": 3,
+    "name": "Vortice Temporale",
+    "type": "MAGIC",
+    "image": "vortice_temporale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Stordisce i nemici per un turno.",
+    "effect": {
+      "type": "STUN",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 80,
+    "cost": 2,
+    "name": "Veleno Mentale",
+    "type": "MAGIC",
+    "image": "veleno_mentale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 81,
+    "cost": 5,
+    "name": "Esplosione Solare",
+    "type": "MAGIC",
+    "image": "esplosione_solare.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 82,
+    "cost": 2,
+    "name": "Muro di Fuoco",
+    "type": "MAGIC",
+    "image": "muro_di_fuoco.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Infligge danni con fiamme ardenti.",
+    "effect": {
+      "type": "DAMAGE",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 83,
+    "cost": 7,
+    "name": "Rinascita",
+    "type": "MAGIC",
+    "image": "rinascita.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 84,
+    "cost": 5,
+    "name": "Catena d'Ombra",
+    "type": "MAGIC",
+    "image": "catena_d'ombra.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Si muove nell'ombra, evitando attacchi.",
+    "effect": {
+      "type": "STEALTH",
+      "trigger": "ON_PLAY",
+      "value": 2
+    }
+  },
+  {
+    "id": 85,
+    "cost": 6,
+    "name": "Globo del Caos",
+    "type": "MAGIC",
+    "image": "globo_del_caos.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 86,
+    "cost": 5,
+    "name": "Richiamo della Natura",
+    "type": "MAGIC",
+    "image": "richiamo_della_natura.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Potenzia gli alleati con la forza naturale.",
+    "effect": {
+      "type": "BUFF",
+      "trigger": "ON_PLAY",
+      "value": 2
+    }
+  },
+  {
+    "id": 87,
+    "cost": 6,
+    "name": "Sigillo di Distruzione",
+    "type": "MAGIC",
+    "image": "sigillo_di_distruzione.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Un sigillo protettivo si attiva.",
+    "effect": {
+      "type": "SHIELD",
+      "trigger": "ON_PLAY",
+      "value": 2
+    }
+  },
+  {
+    "id": 88,
+    "cost": 7,
+    "name": "Illusione Fantasma",
+    "type": "MAGIC",
+    "image": "illusione_fantasma.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 89,
+    "cost": 3,
+    "name": "Barriera Eterna",
+    "type": "MAGIC",
+    "image": "barriera_eterna.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Crea una barriera difensiva.",
+    "effect": {
+      "type": "SHIELD",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 90,
+    "cost": 4,
+    "name": "Frammento del Tempo",
+    "type": "MAGIC",
+    "image": "frammento_del_tempo.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 91,
+    "cost": 2,
+    "name": "Marchio del Destino",
+    "type": "MAGIC",
+    "image": "marchio_del_destino.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Segna il nemico riducendone la forza.",
+    "effect": {
+      "type": "DEBUFF",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 92,
+    "cost": 3,
+    "name": "Urlo del Drago",
+    "type": "MAGIC",
+    "image": "urlo_del_drago.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Potente attacco distruttivo.",
+    "effect": {
+      "type": "KILL",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 93,
+    "cost": 7,
+    "name": "Eco dell'Abisso",
+    "type": "MAGIC",
+    "image": "eco_dell'abisso.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 94,
+    "cost": 6,
+    "name": "Tempesta Astrale",
+    "type": "MAGIC",
+    "image": "tempesta_astrale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Colpisce tutti i nemici con furia.",
+    "effect": {
+      "type": "DAMAGE",
+      "trigger": "ON_PLAY",
+      "value": 2
+    }
+  },
+  {
+    "id": 95,
+    "cost": 4,
+    "name": "Fulmine Sacro",
+    "type": "MAGIC",
+    "image": "fulmine_sacro.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Inizia con uno scudo divino.",
+    "effect": {
+      "type": "DIVINE_SHIELD",
+      "trigger": "ON_PLAY",
+      "value": 1
+    }
+  },
+  {
+    "id": 96,
+    "cost": 5,
+    "name": "Grido del Nord",
+    "type": "MAGIC",
+    "image": "grido_del_nord.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 97,
+    "cost": 4,
+    "name": "Stella Nera",
+    "type": "MAGIC",
+    "image": "stella_nera.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 98,
+    "cost": 7,
+    "name": "Onda Curativa",
+    "type": "MAGIC",
+    "image": "onda_curativa.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": "Ripristina salute a un alleato.",
+    "effect": {
+      "type": "HEAL",
+      "trigger": "ON_PLAY",
+      "value": 3
+    }
+  },
+  {
+    "id": 99,
+    "cost": 2,
+    "name": "Nebbia Ingannevole",
+    "type": "MAGIC",
+    "image": "nebbia_ingannevole.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  },
+  {
+    "id": 100,
+    "cost": 6,
+    "name": "Giudizio Finale",
+    "type": "MAGIC",
+    "image": "giudizio_finale.jpg",
+    "attack": 0,
+    "defense": 0,
+    "description": ""
+  }
+]
