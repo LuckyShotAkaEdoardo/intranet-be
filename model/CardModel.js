@@ -10,6 +10,7 @@ const cardSchema = new Schema({
   cost: Number,
   image: String,
   description: String,
+  isVisibile: Boolean,
   abilities: { type: Schema.Types.Mixed }, // può essere array, oggetto, ecc.
   effect: { type: Schema.Types.Mixed }, // completamente libero
 });
